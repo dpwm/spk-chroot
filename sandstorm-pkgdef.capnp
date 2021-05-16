@@ -235,7 +235,7 @@ const pkgdef :Spk.PackageDefinition = (
 
 const myCommand :Spk.Manifest.Command = (
   # Here we define the command used to start up your server.
-  argv = ["/usr/local/bin/sandstorm-http-bridge", "8080", "--", "python3", "test.py"],
+  argv = ["/bin/sandstorm-http-bridge", "8080", "--", "python3", "test.py"],
   environ = [
     # Note that this defines the *entire* environment seen by your app.
     (key = "PATH", value = "/usr/local/bin:/usr/bin:/bin"),

@@ -1,1 +1,2 @@
-apk add python3 py3-bottle
+pacman -Syu --noconfirm python python-bottle
+pacman -Scc --noconfirm
